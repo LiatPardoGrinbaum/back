@@ -62,6 +62,12 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
+    },
+    "landings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::landing.landing",
+      "mappedBy": "user"
     }
   }
 }

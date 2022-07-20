@@ -17,6 +17,12 @@
     },
     "email": {
       "type": "email"
+    },
+    "landing": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::landing.landing",
+      "inversedBy": "contacts"
     }
   }
 }
