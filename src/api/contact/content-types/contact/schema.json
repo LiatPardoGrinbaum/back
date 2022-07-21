@@ -23,6 +23,12 @@
       "relation": "manyToOne",
       "target": "api::landing.landing",
       "inversedBy": "contacts"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "landingID": {
+      "type": "string"
     }
   }
 }

@@ -16,24 +16,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text"
-    },
-    "image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "slugify": {
-      "type": "uid",
-      "targetField": "title"
-    },
     "contacts": {
       "type": "relation",
       "relation": "oneToMany",
@@ -45,6 +27,32 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "landings"
+    },
+    "titleColor": {
+      "type": "string",
+      "required": true
+    },
+    "imageURL": {
+      "type": "string",
+      "required": true
+    },
+    "editorContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "contentBackgroundColor": {
+      "type": "string",
+      "required": true
+    },
+    "formBackgroundColor": {
+      "type": "string",
+      "required": true
+    },
+    "username": {
+      "type": "string"
+    },
+    "uniqid": {
+      "type": "string"
     }
   }
 }

@@ -7,10 +7,14 @@ module.exports = ({ env }) => ({
         secretAccessKey: env("AWS_ACCESS_SECRET"),
         region: env("AWS_REGION"),
         params: {
-          Bucket: env("strapi-upload-provider-s3"),
+          Bucket: "strapi-upload-provider-s3",
         },
         logger: console, // Only if you want to `stdout` logs
       },
+    },
+    actionOptions: {
+      upload: {},
+      delete: {},
     },
   },
 });
