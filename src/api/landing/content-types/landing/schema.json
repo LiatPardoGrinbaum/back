@@ -34,7 +34,7 @@
     },
     "imageURL": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "editorContent": {
       "type": "richtext",
@@ -46,7 +46,7 @@
     },
     "formBackgroundColor": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "username": {
       "type": "string"
@@ -59,6 +59,35 @@
       "required": true,
       "unique": true,
       "maxLength": 30
+    },
+    "imageURLsmall": {
+      "type": "string"
+    },
+    "template": {
+      "type": "string",
+      "required": true
+    },
+    "jobTopSectionColor": {
+      "type": "string",
+      "required": false
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "subTitleColor": {
+      "type": "string"
+    },
+    "jobDescColor": {
+      "type": "string"
+    },
+    "bottomSectionColor": {
+      "type": "string"
+    },
+    "bottomSectionText": {
+      "type": "string"
+    },
+    "bottomSectionTextColor": {
+      "type": "string"
     }
   }
 }

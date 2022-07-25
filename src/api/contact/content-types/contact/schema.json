@@ -29,6 +29,13 @@
     },
     "landingID": {
       "type": "string"
+    },
+    "note": {
+      "type": "text",
+      "maxLength": 500
+    },
+    "number": {
+      "type": "integer"
     }
   }
 }
