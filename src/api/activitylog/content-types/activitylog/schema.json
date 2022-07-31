@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activitylogs",
+  "info": {
+    "singularName": "activitylog",
+    "pluralName": "activitylogs",
+    "displayName": "Activitylog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": {
+      "type": "datetime"
+    },
+    "mail": {
+      "type": "datetime"
+    },
+    "contactID": {
+      "type": "integer"
+    }
+  }
+}
