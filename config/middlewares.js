@@ -14,6 +14,7 @@ module.exports = [
       },
     },
   },
+
   "strapi::cors",
   "strapi::poweredBy",
   "strapi::logger",
@@ -22,4 +23,6 @@ module.exports = [
   "strapi::session",
   "strapi::favicon",
   "strapi::public",
+  // "global::contact-middleware",
+  // "api::contact.contact-middleware",
 ];
